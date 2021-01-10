@@ -18,10 +18,12 @@ while len(answer_list) < 50:
         title="Guess the State", prompt=f"{len(answer_list)}/50 States Correct").title()
 
     if answer_state == 'Exit':
-        missing_states = []
-        for state in states_list:
-            if state not in answer_list:
-                missing_states.append(state)
+        missing_states = [
+            state for state in states_list if state not in answer_list]
+
+        # for state in states_list:
+        #     if state not in answer_list:
+        #         missing_states.append(state)
 
         df = pandas.DataFrame(missing_states)
         df.to_csv("states_to_learn.csv")
