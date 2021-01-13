@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Tk, Entry, Label, Button
 
 # window = Tk()
 # window.title('GUI')
