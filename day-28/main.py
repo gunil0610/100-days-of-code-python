@@ -1,4 +1,4 @@
-from tkinter import Tk, Canvas, PhotoImage, Entry, Label, Button
+from tkinter import Tk, Canvas, PhotoImage, Label, Button
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"

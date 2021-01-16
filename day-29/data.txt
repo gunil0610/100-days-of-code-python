@@ -1,0 +1,2 @@
+Amazon | example@example.com | 1234
+Ebay | example@example.com | password
